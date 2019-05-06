@@ -1,14 +1,7 @@
-import React, { Component, Fragment } from 'react';
+import React from 'react';
 import { render } from 'react-dom';
 
-class App extends Component {
-  render() {
-    return (
-      <Fragment>
-        <h1>TEste</h1>
-      </Fragment>
-    );
-  }
-}
+import App from './components/App';
+import './styles/app.scss';
 
 render(<App />, document.getElementById('app'));
